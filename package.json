@@ -1,0 +1,26 @@
+{
+	"name": "alerts-in-cli",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"keywords": [
+		"alerts",
+		"cli",
+		"color console",
+		"color alert",
+		"symbol alert"
+	],
+	"author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
+	"license": "MIT",
+	"repository": "suryapratapsinghsuryavanshi/alerts-in-cli",
+	"description": "Alerts in CLI, alerts in your terminal with colors and the moduel work corss-platform",
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	},
+	"files": [
+		"index.js"
+	]
+}
