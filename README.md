@@ -15,22 +15,26 @@ yarn add alerts-in-cli
 ```bash
 const alerts = require('alerts-in-cli');
 
-alerts.info({
+# for info
+alerts({
 	type: 'info',
 	msg: 'This is an info message',
 });
 
-alerts.success({
+# for success
+alerts({
 	type: 'success',
 	msg: 'This is a success message',
 });
 
-alerts.warning({
+# for warning
+alerts({
 	type: 'warning',
 	msg: 'This is a warning message',
 });
 
-alerts.error({
+# for error
+alerts({
 	type: 'error',
 	msg: 'This is an error message',
 });
