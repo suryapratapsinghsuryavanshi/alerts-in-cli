@@ -11,7 +11,11 @@
 		"cli",
 		"color console",
 		"color alert",
-		"symbol alert"
+		"symbol alert",
+		"alerts-in-cli",
+		"cli-alerts",
+		"cli-in-alerts",
+		"alerts-cli"
 	],
 	"author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
 	"license": "MIT",

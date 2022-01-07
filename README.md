@@ -3,6 +3,8 @@ This module helps you to manage your colorful alerts in Terminal. And they also 
 
 It throws the message without blocking any other process so you can use it anywhere.
 
+![](static/alerts-in-cli.svg)
+
 ## Installation
 ```bash
 npm install alerts-in-cli
