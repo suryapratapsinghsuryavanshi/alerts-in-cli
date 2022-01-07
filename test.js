@@ -1,8 +1,38 @@
-const alerts = require('alerts-in-cli');
+const alerts = require('./index.js');
+
+alerts(); // without any data.
+
+// with type and message.
+alerts({
+	type: 'error',
+	msg: 'Your error!'
+});
 
 alerts({
 	type: 'success',
-	message: 'All good!'
+	msg: 'Your success!'
+});
+
+alerts({
+	type: 'success',
+	msg: 'Work Finished!',
+	name: "Done"
+});
+
+alerts({
+	type: 'warning',
+	msg: 'Your warning!'
+});
+
+alerts({
+	type: 'warning',
+	msg: 'Main mamory overflow!',
+	name: "TEST"
+});
+
+alerts({
+	type: 'info',
+	msg: 'Your info!'
 });
 
 // `✔️ SUCCESS: All good!`
